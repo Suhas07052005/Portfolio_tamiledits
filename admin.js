@@ -22,7 +22,7 @@
 
     // Firestore references
     const CONFIG_REF = db.collection('portfolioConfig').doc('tamiledits');
-    const VIDEOS_REF = db.collection('tamiledits');
+    const VIDEOS_REF = db.collection('tamiledits_video');
 
     // ===== STATE =====
     let currentThumbDocId = null;
